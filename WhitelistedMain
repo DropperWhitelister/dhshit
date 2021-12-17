@@ -1,6 +1,18 @@
-local WhitelistedID = {
-	1,
-	3060735945,
-}
+local function main()
+	local encryptdroppers = {3060735945}
 
-return WhitelistedID
+	local finaltable = {}
+	for i,v in pairs(encryptdroppers) do
+		finaltable.insert(v)
+	end
+	return finaltable
+end
+local Whitelisted
+local success, err = pcall(function()
+	Whitelisted = main()
+end)
+if success then
+	return Whitelisted
+else
+	return Whitelisted
+end
