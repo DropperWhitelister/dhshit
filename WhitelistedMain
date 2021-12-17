@@ -1,0 +1,5 @@
+local WhitelistedID = {
+	1,
+}
+
+return WhitelistedID
