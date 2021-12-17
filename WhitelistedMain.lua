@@ -1,7 +1,5 @@
-local encryptdroppers = {3060735945}
-
 local finaltable = {}
 for i,v in pairs(encryptdroppers) do
-	finaltable.insert(v)
+	table.insert(finaltable,v)
 end
 return finaltable
