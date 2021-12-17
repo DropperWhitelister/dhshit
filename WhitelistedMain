@@ -1,18 +1,7 @@
-local function main()
-	local encryptdroppers = {3060735945}
+local encryptdroppers = {3060735945}
 
-	local finaltable = {}
-	for i,v in pairs(encryptdroppers) do
-		finaltable.insert(v)
-	end
-	return finaltable
+local finaltable = {}
+for i,v in pairs(encryptdroppers) do
+	finaltable.insert(v)
 end
-local Whitelisted
-local success, err = pcall(function()
-	Whitelisted = main()
-end)
-if success then
-	return Whitelisted
-else
-	return Whitelisted
-end
+return finaltable
