@@ -3,11 +3,13 @@ local encryptdroppers = {3060735945}
 local dollyalts = {1548566513,2734521236,2413245637,1667832645,2230506077,519949514}
 local dirtdroppers = {54338663,3070125955,3070127051,3071442138,3071442138,1457641001,3056681235}
 local yasou = {3092376008,3092363653,3092379948,3092382776,151296912,755221370,2883653188}
+local eternity = {2792241640,1349164651,3007795318,3007793771,2810424320,485607094}
 
 local finaltable = {}
 for i,v in pairs(encryptdroppers) do table.insert(finaltable,v) end
 for i,v in pairs(dollyalts) do table.insert(finaltable,v) end
 for i,v in pairs(dirtdroppers) do table.insert(finaltable,v) end
 for i,v in pairs(yasou) do table.insert(finaltable,v) end
+for i,v in pairs(eternity) do table.insert(finaltable,v) end
 
 return finaltable
